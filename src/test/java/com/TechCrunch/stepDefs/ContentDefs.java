@@ -11,7 +11,7 @@ import org.openqa.selenium.WebElement;
 import java.util.List;
 import java.util.Random;
 
-public class AnyNewsPageDefs {
+public class ContentDefs {
 
         HomePage homePage = new HomePage();
         Random random = new Random();
