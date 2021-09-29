@@ -1,0 +1,83 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-29T17:44:19.196Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12198000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.TechCrunch.stepDefs.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Each news has an author and image",
+        "description": "",
+        "id": "latest-news;each-news-has-an-author-and-image",
+        "after": [
+          {
+            "result": {
+              "duration": 1514000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.TechCrunch.stepDefs.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17076000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to homepage",
+            "match": {
+              "location": "com.TechCrunch.stepDefs.NewsDefs.navigate_to_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Latest News",
+    "description": "",
+    "id": "latest-news",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/News.feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 13
+        }
+      }
+    ]
+  }
+]
