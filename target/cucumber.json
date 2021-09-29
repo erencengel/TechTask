@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-09-29T17:44:19.196Z",
+        "start_timestamp": "2021-09-29T22:12:02.015Z",
         "before": [
           {
             "result": {
-              "duration": 12198000000,
+              "duration": 7100000000,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 1514000000,
+              "duration": 1536000000,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 17076000000,
+              "duration": 9638000000,
               "status": "passed"
             },
             "line": 5,
@@ -44,6 +44,119 @@
               "location": "com.TechCrunch.stepDefs.NewsDefs.navigate_to_homepage()"
             },
             "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1509000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify that each news has an image",
+            "match": {
+              "location": "com.TechCrunch.stepDefs.NewsDefs.verifyThatEachNewsHasAnImage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1188000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify that each news has an author",
+            "match": {
+              "location": "com.TechCrunch.stepDefs.NewsDefs.verifyThatEachNewsHasAnAuthor()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-29T22:12:23.219Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2766000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.TechCrunch.stepDefs.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Each news\u0027 content verify followings",
+        "description": "",
+        "id": "latest-news;each-news--content-verify-followings",
+        "after": [
+          {
+            "result": {
+              "duration": 1111000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.TechCrunch.stepDefs.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9231000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Navigate to homepage",
+            "match": {
+              "location": "com.TechCrunch.stepDefs.NewsDefs.navigate_to_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5765000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click any news from The Latest News",
+            "match": {
+              "location": "com.TechCrunch.stepDefs.AnyNewsPageDefs.click_any_news_from_The_Latest_News()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 872000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The browser title is the same with the news title",
+            "match": {
+              "location": "com.TechCrunch.stepDefs.AnyNewsPageDefs.the_browser_title_is_the_same_with_the_news_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 247000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "The links within the news content",
+            "match": {
+              "location": "com.TechCrunch.stepDefs.AnyNewsPageDefs.theLinksWithinTheNewsContent()"
+            },
+            "keyword": "Then "
           }
         ],
         "tags": [
