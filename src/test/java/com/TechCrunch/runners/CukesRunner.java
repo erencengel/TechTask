@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         glue = "com/TechCrunch/stepDefs",
         plugin = {"json:target/cucumber.json",
                 "html:target/default-html-reports"},
-        tags = "@wip",
+        tags = "@first",
         dryRun = false
 )
 public class CukesRunner {

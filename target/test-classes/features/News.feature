@@ -1,6 +1,6 @@
 @regression @wip
 Feature: Latest News
-
+  @first
   Scenario: Each news has an author and image
     Given Navigate to homepage
     Then Verify that each news has an image
